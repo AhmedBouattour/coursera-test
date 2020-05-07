@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="author" content="White Hat Team">
+    <meta name="keywords" content="XP,Xeroderma, Pigmentosum"> 
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style_offers.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offers</title>
+</head>
+<body style="background-color: rgb(4, 30, 58)">
+  <script>
+    function standardOffer()
+    {
+      document.getElementById("standard_offer").innerHTML="Hi"
+    }
+  </script>
+  <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top">
+    <!-- Brand -->
+    <a class="navbar-brand" href="home.html">
+      <img src="logo1.png" alt="Logo" style="width:40px;">
+    </a>
+  
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+      <li class="nav-item active"><a class="nav-link" href="offers.html">Offers</a></li>
+      <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+      <li class="nav-item"><a class="nav-link" href="about_us.html">About us</a></li>
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      <div style="position: absolute; right: 0px; margin-right: 20px;">
+        <form class="form-inline" action="/action_page.php">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-success" type="submit">Search</button>
+        </form>
+      </div>
+        <li class="nav-item"><a class="nav-link" href="sign_in.html">Sign in</a></li>
+        <li class="nav-item"><a class="nav-link" href="sign_up.html">Sign up</a></li>
+    </ul>
+</nav>
+    <div class="C1">
+      <div class="us" style="margin-top:80px">
+        <center><h2>Standard offer</h2></center>
+          <ul>
+              <li>Earn internationally recognized diplomas</li>
+              <li>Get a job guaranteed in less than six months</li>
+              <li>Receive individual help from your own mentor</li>
+              <li>Have regular chats with your mentor to tailor your learning and pace</li>
+          </ul>
+        <h6 style="text-decoration: underline;" id="standOffer" onmouseover="document.getElementById('standOffer').style.color='blue'" onmouseout="document.getElementById('standOffer').style.color='black'" onclick="this.innerHTML='We offer the student a paid and certified training for 4 years. We create job opportunities for unemployed XP Patients'">Learn more about this offer...</h6>
+          <p style="font-size: 30px; text-align: center; color: rgb(4, 30, 58); font-weight: 500;">Only for 60DT/Month</p>
+          <center><a style="text-decoration: none;" href="sign_in.html"><button type="button" class="btn btn-secondary btn-block" style="color: black;">Register for standard offer</button></a></center>
+      </div>
+      <div class="us" style="margin-top:80px">
+        <center><h2>Special offer</h2></center>
+          <ul>
+            <li>Learn new skills</li>
+            <li>Access additional materials</li>
+            <li>Study as many courses as you want at your own pace</li>
+          </ul>
+          <h6 style="text-decoration: underline;" id="specOffer" onmouseover="document.getElementById('specOffer').style.color='blue'" onmouseout="document.getElementById('specOffer').style.color='black'" onclick="this.innerHTML='We offer the student a free certified training that lasts 3 years. Then the student works project for our partners for 2 years with half salary in order to gain experience and get his certificate'">Learn more about this offer...</h6>
+          <p style="font-size: 30px; text-align: center; color: rgb(4, 30, 58); font-weight: 500;">Only for 0DT/Month !!</p>
+          <center><a style="text-decoration: none;" href="sign_in.html"><button type="button" class="btn btn-secondary btn-block" style="color: black;">Register for special offer</button></a></center>
+      </div>
+    </div>
+</body>
+</html>

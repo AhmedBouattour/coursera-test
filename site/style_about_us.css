@@ -1,0 +1,23 @@
+
+body{
+    background-image: url("etoiles-1.png");
+    background-repeat: repeat;
+    display: grid;
+    grid-template-columns:auto;
+}
+.C0{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns:auto auto auto auto auto;
+}
+.us{
+    border: 1px solide white;
+    background-color:rgba(245,245,245, 0.7);
+    border-radius: 10px;
+    color:black;
+    padding: 15px;
+    width: 290px;
+    height: 280px;
+    margin-left: 5.2em;
+}
